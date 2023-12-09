@@ -1,6 +1,8 @@
 # VeinMiner 1.20.2
 A customisable Minecraft SpigotMC/Paper/Purpur Vein Miner plugin that I developed.
-# Features
+# Storage Location
+The plugin stores data in the remote location of `plugins/kablammoman/veinminer/` to guarantee that no conflicts between data of other plugins.
+# Commands
 - Customise what blocks are treated as "vein-minerable" with `/toggleveintype`
 - Customise the maximum distance between the source block and others that will break if they're the same type with `/setbreakrange`
 - Reset the configuration to the defaults with `/resetveinminer`
