@@ -1,0 +1,25 @@
+name: VeinMiner_1_20_2
+version: '${project.version}'
+main: dev.kablammoman.plugins.VeinMiner_1_20_2
+api-version: '1.20'
+commands:
+  resetVeinMiner:
+    usage: /resetVeinMiner
+    description: Resets the vein miner to default config
+    permission: op
+    permission-message: You must have operator status on the server to use this command.
+  setBreakRange:
+    usage: /setBreakRange <range>
+    description: Sets the maximum range of breakages when using the vein miner.
+    permission: op
+    permission-message: You must have operator status on the server to use this command.
+  toggleVeinMiner:
+    usage: /toggleVeinMiner
+    description: Toggles (Enables/Disables) the vein miner plugin.
+    permission: op
+    permission-message: You must have operator status on the server to use this command.
+  toggleVeinType:
+    usage: /toggleVeinType [...types]
+    description: Toggles different block types to be associated with the use of vein miner.
+    permission: op
+    permission-message: You must have operator status on the server to use this command.
